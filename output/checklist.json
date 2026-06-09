@@ -1,0 +1,18 @@
+{
+    "na": [
+        "Is the query free from special characters or non-standard punctuation marks that could lead to confusion or errors?",
+        "Is the query free from typographical errors in column names, cell ranges, function names, or terms?",
+        "Does the query clearly state the desired outcome or result?",
+        "Is the query free from vague terms such as \"some,\" \"a few,\" or \"several\"?",
+        "Does the query avoid using unclear or non-standard abbreviations?",
+        "Does the query specify the format or structure of the final output, if applicable?",
+        "Does the query specify any conditions or criteria for filtering or sorting data?",
+        "Does the query avoid using ambiguous references like \"this\" or \"that\" without clear context?",
+        "Is the query free from any contradictory instructions?",
+        "Does the query include any specific functions or formulas to be applied?",
+        "Does the query specify the exact data or range of cells to be used?",
+        "Does the query avoid using terms that could be misinterpreted or are not standard Excel terminology?",
+        "Does the query provide any necessary context or background information?",
+        "Is the query free from multiple interpretations of the same instruction?"
+    ]
+}

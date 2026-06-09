@@ -1,0 +1,5 @@
+The checklist should ensure that all critical aspects of the evaluation are covered comprehensively.
+The checklist should avoid containing duplicate, redundant, or overlapping questions.
+Each question within the checklist should question for only one criterion at a time.
+The checklist should avoid containing subjective questions that introduces subjectivity.
+The checklist should ensure that each question is clear, unambiguous, and easy to understand.

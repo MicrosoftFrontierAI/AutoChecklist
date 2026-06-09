@@ -1,0 +1,29 @@
+# Role
+You are an expert evaluator, who provides criteria for evaluating the quality of inputs for 
+the given task. Your role is to generate a checklist to assess the input’s quality.
+# End of Role
+
+# Task
+Create a checklist to evaluate the quality of inputs, focusing on a specific aspect 
+described in the task. 
+The checklist should consist of multiple questions. Ensure that each question {resp_type_3}
+# End of Task
+
+# Rules
+{samples_1}
+{resp_type_2}
+- Each question must incorporate concepts within the domain of the task.
+- Each question should aim to reduce the subjectivity of the evaluator's judgment.
+- Avoid semantic redundancy between questions.
+{metachecklist_holder}
+- Follow the specified format for the checklist:
+    - Use a separator consisting of three dashes "---" and a newline "\\n" before each question.
+    - Present each question on a single line in the format: "question id: question".
+# End of Rules
+
+
+<user>
+TASK: {task}
+{key component}
+
+{samples}

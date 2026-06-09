@@ -1,0 +1,45 @@
+{
+    "translation": {
+        "description": "Machine translation: evaluate the quality assessment for the provided source text and corresponding translated output.",
+        "aspects": {
+            "na": "",
+            "overall": "Overall quality of the translation, considering all aspects of the text."
+        }
+    },
+    "summary": {
+        "description": "Summarization: evaluate the fluency assessment for the provided article and corresponding summary output.",
+        "aspects": {
+            "na": "",
+            "coherence": "The logical and orderly presentation of ideas in a summary, ensuring that it is well-structured and easy to follow.",
+            "consistency": "The degree to which a summary maintains the same style, tone, and perspective as the original text, without contradictions.",
+            "fluency": "The ability of a summary to be easily read and understood, with a natural flow and use of language.",
+            "relevance": "The extent to which a summary captures the most important and pertinent information from the original text, omitting extraneous details.",
+            "overall": "Overall quality of the summary, considering all aspects of the text."
+        }
+    },
+    "formula_explanation": {
+        "description": "Excel Formula Explanation: evaluate one aggregated/compiled quality assessment for the input of: multiple pairs of formulas and corresponding explanations.",
+        "aspects": {
+            "na": "",
+            "accuracy": "The aggregated correctness and precision of each of the explanations in representing the corresponding Excel formulas, ensuring that the information provided is true and conforms to established facts or principles.",
+            "completeness": "The aggregated extent to which each of the explanations cover all necessary aspects of the corresponding Excel formulas, leaving no essential component or step unaddressed.",
+            "clarity": "The aggregated ease with which each of the explanations can be understood, emphasizing simplicity, coherence, and the avoidance of ambiguity or confusion.",
+            "relevance": "The aggregated extent to which each of the explanations are directly related to the corresponding Excel formulas and provides relevant information.",
+            "overall": "Overall aggregated quality of each of the explanations for corresponding Excel formulas, considering all aspects."
+        }
+    },
+    "instruct_excel": {
+        "description": "Excel user query: evaluate the amibuity assessment for the provided Excel user instruction query.",
+        "aspects": {
+            "na": "",
+            "ambiguity": "The presence of uncertainty or multiple interpretations in an Excel user instruction query."
+        }
+    },
+    "metachecklists": {
+        "description": "Quality of Checklists: evaluate the quality assessment for the provided checklists for evaluation.",
+        "aspects": {
+            "na": "",
+            "overall": "The overall quality of the checklists for evaluation, considering all aspects of the checklist."
+        }
+    }
+}

@@ -1,0 +1,39 @@
+# Role
+Given a comment, checklist with its corresponding answers, provide a response while obeying the rules of the task.
+# End of Role
+
+# Task
+You need to respond with reasoning and response for an input of checklist, it corresponding answers and comments. You need to follow these rules get to the response.
+# Rules
+- The 3 possible responses are:
+    1 means that atleast one of the comment's criteria is NOT present within the checklist.
+    2 means that all the comment's criteria is present within the checklist, but atleast one of the answer is NOT inline.
+    3 means that the comment points to criteria that is present within the checklist, and all the answers are inline. 
+- Being inline means that for the given criteria mentioned in comment, the checklist has responded a 'No', or a low score, for the question. Meaning that the checklist is also capturing the error with the same criteria.
+- Only check for crietria mentioned in comments.
+- While reasoning, quote question within the checklist that matches comments criteria and the corresponding answer for that question.
+- You need to follow this response format while responding:
+    ```
+    REASONING:
+    - criteria: question: answer
+    ...
+
+    RESPONSE:
+    [1/2/3]
+    ```
+- Where:
+    criteria: is the criteria mentioned within the comment.
+    question: is the corresponding question from checklist that checks for the same criteria.
+    answer: is the corresponding answer to the question.
+- If there is no question in checklist that checks for comments's criteria, then put question and answer as 'N/A'.
+# End of Rules
+#End of Task
+
+# Input
+CHECKLIST: {checklist}
+# End of Input
+
+<user>
+ANSWERS: {answer}
+
+COMMENT: {comment}

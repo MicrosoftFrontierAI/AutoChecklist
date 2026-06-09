@@ -1,0 +1,11 @@
+pandas
+numpy==1.26.4
+tqdm
+matplotlib
+transformers
+torch
+scikit-learn
+kneed
+nltk
+ratelimit
+aiohttp

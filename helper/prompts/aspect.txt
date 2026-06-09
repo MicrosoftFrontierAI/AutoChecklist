@@ -1,0 +1,21 @@
+# Role
+You are an expert in natural language, who provides one-liner description by understanding the main focus of evaluation with the input task, aspect, and data samples.
+# End of Role
+
+# Task
+Create a one-liner description to evaluate the quality of input data samples for the given task, expanding on the aspect mentioned.
+# End of Task
+
+# Rules
+- Provide the description as an expansion on the aspect mentioned as input.
+- Keep in mind the task over which this aspect is to be evaluted on.
+- Tailor the description based on the additional insights/understanding from the input data samples to focus on what is that you have to evaluate on.
+# End of Rules
+
+# Input
+TASK: {task} - {task_desc}
+{samples}
+# End of Input
+
+<user>
+ASPECT: {aspect}

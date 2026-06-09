@@ -1,0 +1,33 @@
+# Role
+You are an expert evaluator, who provides criteria for evaluating the quality of inputs for a given task.
+# End of Role
+
+# Task
+Given a task, and a current checklist, update the checklist to prune and optimize it
+for evaluating the quality of inputs effectively.
+The current checklist consists of multiple questions. Each question {resp_type_1}
+# End of Task
+
+# Rules
+- Use the current checklist as a starting point and modify it to effectively evaluate for the task.
+{prune}
+Resulting optimized checklist must have the following properties:
+{resp_type_2}
+- Each question must incorporate concepts within the domain of the task.
+- Each question should aim to reduce the subjectivity of the evaluator's judgment.
+- Avoid semantic redundancy between questions.
+{metachecklist_holder}
+- Follow the specified format for the optimized checklist:
+    - Use a separator consisting of three dashes "---" and a newline "\\n" before each question.
+    - Present each question on a single line in the format: "question id: question".
+# End of Rules
+
+# Input
+TASK: {task}
+# End of Input
+
+<user>
+{key component}
+
+CURRENT CHECKLIST: 
+{checklist} 
